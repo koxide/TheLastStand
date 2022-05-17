@@ -34,55 +34,88 @@
     opacity: 0.45;
 }
 .ui.inverted.masthead.segment.bg1:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base_hr1.png');
 }
 .ui.inverted.masthead.segment.bg2:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base01_hr1.png');
 }
 .ui.inverted.masthead.segment.bg3:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base02_hr1.png');
 }
 .ui.inverted.masthead.segment.bg4:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base03_hr1.png');
 }
 .ui.inverted.masthead.segment.bg5:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base04_hr1.png');
 }
 .ui.inverted.masthead.segment.bg6:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base05_hr1.png');
 }
 .ui.inverted.masthead.segment.bg7:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base06_hr1.png');
 }
 .ui.inverted.masthead.segment.bg8:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base07_hr1.png');
 }
 .ui.inverted.masthead.segment.bg9:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base08_hr1.png');
 }
 .ui.inverted.masthead.segment.bg10:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base09_hr1.png');
 }
 .ui.inverted.masthead.segment.bg11:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base10_hr1.png');
 }
 .ui.inverted.masthead.segment.bg12:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base11_hr1.png');
 }
 .ui.inverted.masthead.segment.bg13:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base12_hr1.png');
 }
 .ui.inverted.masthead.segment.bg14:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base13_hr1.png');
 }
 .ui.inverted.masthead.segment.bg15:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base14_hr1.png');
 }
 .ui.inverted.masthead.segment.bg16:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base15_hr1.png');
 }
 .ui.inverted.masthead.segment.bg17:after {
-    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-image: url('/images/backgrounds/-nowloading_base16_hr1.png');
+}
+.ui.inverted.masthead.segment.bg18:after {
+    background-image: url('/images/backgrounds/-nowloading_base17_hr1.png');
+}
+.ui.inverted.masthead.segment.bg19:after {
+    background-image: url('/images/backgrounds/-nowloading_base18_hr1.png');
+}
+.ui.inverted.masthead.segment.bg20:after {
+    background-image: url('/images/backgrounds/-nowloading_base19_hr1.png');
+}
+.ui.inverted.masthead.segment.bg21:after {
+    background-image: url('/images/backgrounds/-nowloading_base20_hr1.png');
+}
+.ui.inverted.masthead.segment.bg22:after {
+    background-image: url('/images/backgrounds/-nowloading_base21_hr1.png');
+}
+.ui.inverted.masthead.segment.bg23:after {
+    background-image: url('/images/backgrounds/-nowloading_base22_hr1.png');
+}
+.ui.inverted.masthead.segment.bg24:after {
+    background-image: url('/images/backgrounds/-nowloading_base23_hr1.png');
+}
+.ui.inverted.masthead.segment.bg25:after {
+    background-image: url('/images/backgrounds/-nowloading_base24_hr1.png');
+}
+.ui.inverted.masthead.segment.bg26:after {
+    background-image: url('/images/backgrounds/-nowloading_base25_hr1.png');
+}
+.ui.inverted.masthead.segment.bg27:after {
+    background-image: url('/images/backgrounds/-nowloading_base26_hr1.png');
+}
+.ui.inverted.masthead.segment.bg28:after {
+    background-image: url('/images/backgrounds/-nowloading_base27_hr1.png');
 }
 .ui.inverted.masthead.segment,
 .ui.inverted.masthead.segment:after {
