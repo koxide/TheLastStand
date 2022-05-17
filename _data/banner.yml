@@ -1,17 +1,17 @@
 message:
   show: true
-  hitokoto: true
-  content: MU5735客机坠毁
-  detail: More
-  color: black
-  icon: plane
+  hitokoto: false
+  content: 【ACT狩猎平台】银山雀儿
+  detail: 和其他玩家共享S怪狩猎信息
+  color: teal
+  icon: earlybirds
   image: false
-  link: https://www.baidu.com/s?wd=mu5735
+  link: https://bbs.nga.cn/read.php?tid=31936161
 
 advertisement:
   show: false
-  content: 学术精进 系统构建20K词汇体系
-  detail: 云英语VB词汇建造师
-  color: black
-  icon: university
-  link: https://y-english.cn/
+  content: 警示
+  detail: 根据最新的官方公告，任何有助于降低游戏难度的第三方工具都是非法的<br>任何使用本网站的玩家已经触犯规则，您必须自己承担相关风险
+  color: red
+  icon: exclamation triangle
+  link: https://ngabbs.com/read.php?tid=31832250
