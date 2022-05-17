@@ -1,484 +1,565 @@
 - categories:
-  - name: 购物
+  - name: 国服官方
     links:
-    - name: 淘宝
-      style: orange
-      url: https://www.taobao.com/
-
-    - name: 天猫
-      style: red
-      url: https://www.tmall.com/
-
-    - name: 京东
-      style: basic
-      url: https://www.jd.com/
-
-    - name: Amazon
-      icon: amazon yellow
-      style: basic
-      url: https://www.amazon.cn/
-
-    - name: Apple
-      style: basic
-      icon: apple grey
-      url: https://www.apple.com/
-
-    - name: 当当
-      style: pink
-      url: http://www.dangdang.com/
-
-    - name: 严选
-      style: basic
-      url: http://you.163.com/
-
-    - name: UNIQLO
-      style: red
-      url: http://www.uniqlo.cn/
-
-    - name: MUJI
-      style: basic
-      url: http://www.muji.com.cn/
-
-    - name: IKEA
-      style: yellow
-      url: https://www.ikea.cn/
-
-    - name: Decathlon
+    - name: 国服官网
+      icon: globe
       style: blue
-      url: https://www.decathlon.com.cn/
+      url: https://ff.web.sdo.com/web8/index.html#/index
 
-    - name: 大疆
-      style: black
-      url: https://www.dji.com/
-
-    - name: 小米
-      style: orange
-      url: https://www.mi.com/
-
-    - name: 有品
-      style: brown
-      url: https://xiaomiyoupin.com/
-
-  - name: 工具
-    links:
-    - name: '12306'
-      icon: train red
+    - name: 道具商城
+      icon: shopping cart
       style: basic
-      url: https://www.12306.cn/
+      url: https://qu.sdo.com/game/1
 
-    - name: 快递查询
-      icon: truck olive
+    - name: 周边商城
       style: basic
-      url: https://kuaidi100.com/
+      url: https://qu.sdo.com/surround-shop?merchantId=1
 
-    - name: 大众点评
-      icon: utensils orange
+    - name: 后勤补给站
       style: basic
-      url: https://www.dianping.com/
+      url: https://actff1.web.sdo.com/project/141028dgf/index.html
 
-    - name: 网易邮箱
-      icon: envelope red
+    - name: 陆行鸟礼物站
       style: basic
-      url: https://email.163.com/
+      url: https://ffpay.sdo.com/pc/giftsStation/index.html#/index
 
-    - name: QQ邮箱
-      icon: qq black
+    - name: 积分商城
       style: basic
-      url: https://mail.qq.com/
+      url: https://actff1.web.sdo.com/20180707jifen/index.html#/home
 
-    - name: 新浪邮箱
-      icon: envelope red
-      style: basic
-      url: https://mail.sina.com.cn/
-
-    - name: Gmail
-      icon: google red
-      style: basic
-      url: https://mail.google.com/
-
-    - name: 谷歌翻译
-      icon: language blue
-      style: basic
-      url: https://translate.google.com/
-
-    - name: 百度翻译
-      icon: paw blue
-      style: basic
-      url: https://fanyi.baidu.com/
-
-    - name: 维基百科
-      icon: wikipedia w black
-      style: basic
-      url: https://www.wikipedia.org/
-
-    - name: 彩云天气
-      icon: cloud olive
-      style: basic
-      url: http://caiyunapp.com/map
-
-    - name: 天眼查
-      style: basic
-      url: https://www.tianyancha.com/
-
-    # - name: 稿定设计
-    #   style: basic
-    #   url: https://www.gaoding.com/
-
-    # - name: MacWk
-    #   style: basic
-    #   url: https://macwk.com/
-
-  - name: 社交
-    links:
-    - name: 微博
+    - name: 官方微博
       icon: weibo red
       style: basic
-      url: https://weibo.com/
+      url: https://weibo.com/cnff14
 
-    - name: 微信网页版
-      icon: weixin green
+    - name: 官方B站
+      style: pink
+      url: https://space.bilibili.com/6655514
+
+    - name: 丝瓜卡夫卡
+      icon: weibo red
       style: basic
-      url: https://wx.qq.com/
+      url: https://weibo.com/siguakafuka
 
-    - name: 百度贴吧
-      icon: paw blue
+    - name: 违规处理平台
+      icon: exclamation circle red
       style: basic
-      url: https://tieba.baidu.com/
+      url: https://actff1.web.sdo.com/project/20210621ffviolation/index.html#/index
 
-    - name: 知乎
-      icon: zhihu blue
-      style: basic
-      url: https://www.zhihu.com/
-
-    - name: Quora
-      icon: quora red
-      style: basic
-      url: https://www.quora.com/
-
-    - name: Facebook
-      icon: facebook f blue
-      style: basic
-      url: https://www.facebook.com/
-
-    - name: Google+
-      icon: google plus g red
-      style: basic
-      url: https://plus.google.com/
-
-    - name: Tumblr
-      icon: tumblr blue
-      style: basic
-      url: https://www.tumblr.com/
-
-    - name: Instagram
-      icon: instagram pink
-      style: basic
-      url: https://www.instagram.com/
-
-    - name: GitHub
-      icon: github black
-      style: basic
-      url: https://github.com/
-
-    - name: LinkedIn
-      icon: linkedin blue
-      style: basic
-      url: https://www.linkedin.com/
-
-  - name: 学习
-    links:
-    - name: Coursera
-      style: basic
-      url: https://www.coursera.org/
-
-    - name: MOOC
-      style: basic
-      url: https://mooc.org/
-
-    - name: 网易公开课
-      style: basic
-      url: https://open.163.com/
-
-    - name: W3School
-      style: basic
-      url: https://www.w3school.com.cn/
-
-    - name: Stack Overflow
-      icon: stack overflow orange
-      style: basic
-      url: https://stackoverflow.com/
-
-    - name: SegmentFault
-      style: basic
-      url: https://segmentfault.com/
-
-    - name: Tutorials Point
-      style: basic
-      url: https://www.tutorialspoint.com/
-
-    - name: Google Open Source
-      icon: code blue
-      style: basic
-      url: https://opensource.google.com/
-
-    - name: EdX
-      style: basic
-      url: https://edx.org/
-
-    - name: 学堂在线
-      style: basic
-      url: https://next.xuetangx.com/
-
-    - name: 优达学城
-      style: basic
-      url: https://cn.udacity.com/
-
-    - name: 云英语
-      style: black
-      url: https://www.y-english.org/
-
-  - name: 娱乐
-    links:
-    - name: Youtube
-      icon: youtube red
-      style: basic
-      url: https://youtube.com/
-
-    - name: 爱奇艺
+    - name: 萌新招待
+      icon: seedling
       style: green
-      url: https://iqiyi.com/
+      url: https://actff1.web.sdo.com/20190315Zhaodai/index.html#/index
 
-    - name: 芒果
+    - name: 叨鱼社区
+      style: basic
+      url: https://www.daoyu8.com/#/circle?circleId=854696
+
+    - name: 游戏充值(盛趣)
+      icon: donate
+      style: green
+      url: https://pay.sdo.com/item/GWPAY-100001900
+
+    - name: 游戏充值(腾讯)
+      icon: donate
+      style: blue
+      url: https://www.wegame.com.cn/mall/list.html?game_id=2000340
+
+  - name: 国际服官方
+    links:
+    - name: 国际服官网
+      icon: globe
+      style: blue
+      url: https://www.finalfantasyxiv.com/
+
+    - name: LodeStone
+      icon: database red
+      style: basic
+      url: https://jp.finalfantasyxiv.com/lodestone/playguide/db/
+
+    - name: 官方油管
+      icon: youtube
+      style: red
+      url: https://www.youtube.com/user/FINALFANTASYXIV
+
+    - name: 官方推特
+      icon: twitter
+      style: blue
+      url: https://twitter.com/ff_xiv_jp
+
+    - name: 道具商城
+      icon: shopping cart
+      style: basic
+      url: https://store.finalfantasyxiv.com/ffxivstore/ja-jp/
+
+    - name: 莫古站
+      style: basic
+      url: https://secure.square-enix.com/account/app/svc/ffxivshopacctop
+
+    - name: 官方论坛
+      style: basic
+      url: https://forum.square-enix.com/ffxiv/forum.php
+
+    - name: 官方博客
+      icon: file alternate outline icon
+      style: blog
+      url: https://jp.finalfantasyxiv.com/blog/
+
+  - name: 综合型网站&数据库
+    links:
+    - name: 素素攻略站
+      style: basic
+      url: https://www.ffxiv.cn/v2/
+
+    - name: 新人攻略站-新大陆见闻录
+      icon: seedling
+      style: green
+      url: https://ff14.org/
+
+    - name: 灰机中文WIKI
+      style: wikipedia w
+      style: grey
+      url: https://ff14.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5
+
+    - name: 加兰德数据库
+      icon: database
       style: orange
-      url: http://mgtv.com/
+      url: https://garlandtools.cn/
 
-    - name: 咪咕视频
-      style: pink
-      url: https://pink.miguvideo.com/
-
-    - name: 腾讯视频
+    - name: GamerEscape WIKI
       style: basic
-      url: https://v.qq.com/
+      url: https://ffxiv.gamerescape.com/wiki/Main_Page
 
-    - name: 优酷
+    - name: 宏库
       style: basic
-      url: https://youku.com/
+      url: https://ffxivmacro.net/
 
-    - name: 哔哩哔哩
-      style: pink
-      url: https://bilibili.com/
-
-    - name: AcFun
-      style: orange
-      url: https://www.acfun.cn/
-
-    - name: 腾讯动漫
+    - name: ERIONES
       style: basic
-      url: https://ac.qq.com/
+      url: https://eriones.com/
 
-    - name: 豆瓣电影
-      icon: film blue
+    - name: 俺Tools
       style: basic
-      url: https://movie.douban.com/
+      url: http://ffxiv.es.exdreams.net/
 
-    - name: FIX
+  - name: 玩家交流
+    icon: comment
+    links:
+    - name: QQ频道
+      icon: qq
+      style: blue
+      url: https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=RBgPX&from=181074&biz=ka
+
+    - name: NGA艾欧泽亚
+      style: basic
+      url: https://bbs.nga.cn/thread.php?fid=-362960
+
+    - name: 百度FF14贴吧
+      style: basic
+      url: https://tieba.baidu.com/f?kw=ff14&ie=utf-8&tp=0
+
+    - name: 神典石
+      icon: weibo
+      style: basic
+      url: https://weibo.com/u/7185899976
+
+    - name: 叨鱼社区
       style: yellow
-      url: https://www.zimuxia.cn/%e6%88%91%e4%bb%ac%e7%9a%84%e4%bd%9c%e5%93%81
+      url: https://www.daoyu8.com/#/circle?circleId=854696
 
-    - name: FIX
-      icon: file excel green
+    - name: Reddit/FFXIV
+      icon: reddit alien orange
       style: basic
-      url: https://docs.qq.com/sheet/DWkRqcnZNYWRzc0pa
+      url: https://www.reddit.com/r/ffxiv/
 
-    - name: NEW
-      style: basic
-      url: https://newzmz.com/tvslist.html
-
-    - name: 弯弯
-      style: blue
-      url: http://wanwansub.com/node/139
-
-    - name: 阿哥
-      style: orange
-      url: https://agmov.com/
-
-    - name: 猪猪
-      style: purple
-      url: http://www.zzrbl.com/
-
-    - name: TNH
-      style: basic
-      url: https://www.tnhsub.com/
-
-    - name: 幻樱
-      style: pink
-      url: http://www.hysub.net/
-
-    - name: 斗鱼
-      style: orange
-      url: https://douyu.com/
-
-- categories:
-  - name: 北邮校园
+  - name: 常规副本
     links:
-    - name: 北邮官网
-      style: basic
-      url: https://www.bupt.edu.cn/
-
-    # - name: 本科教务系统
-    #   style: basic
-    #   url: https://jwgl.bupt.edu.cn/jsxsd/
-
-    - name: 研究生教务系统
-      style: basic
-      url: http://yjxt.bupt.edu.cn/
-
-    - name: 教务处
-      style: basic
-      url: http://jwc.bupt.edu.cn/
-
-    - name: 北邮人论坛
-      style: basic
-      url: https://bbs.byr.cn/
-
-    - name: 北邮人BT
-      style: blue
-      url: https://byr.pt/promotionlink.php?key=63030ce02da245eb152d2e8dc8dd6add
-
-    # - name: 北邮IPTV
-    #   style: basic
-    #   url: http://tv.byr.cn/
-
-    # - name: 信息门户
-    #   style: basic
-    #   url: http://my.bupt.edu.cn/
-
-    - name: 图书馆
-      style: basic
-      url: http://lib.bupt.edu.cn/
-
-    - name: 北邮贴吧
-      style: basic
-      url: http://tieba.baidu.com/f?kw=%B1%B1%BE%A9%D3%CA%B5%E7%B4%F3%D1%A7
-
-    - name: 校园网
-      style: basic
-      url: http://nic.bupt.edu.cn/
-
-    - name: 北邮邮箱
-      style: basic
-      url: http://mail.bupt.edu.cn/
-
-    # - name: VPN服务
-    #   style: basic
-    #   url: https://nic.bupt.edu.cn/list/list.php?p=5_13_1
-
-    # - name: 空闲自习室查询
-    #   style: basic
-    #   url: http://buptclass.com/
-
-  - name: 校园助手
-    links:
-    - name: 空余教室查询
-      style: basic
-      url: http://jwc.bupt.edu.cn/content/content.php?p=10_2_235
-
-    - name: 辅修专业
-      style: basic
-      url: http://jwc.bupt.edu.cn/list/list.php?p=7_50_1
-
-    - name: 毕业设计
-      style: basic
-      url: http://jwc.bupt.edu.cn/list/list.php?p=9_38_1
-
-    - name: 学生校际选修
-      style: basic
-      url: http://www.xueyuanlu.cn/
-
-    - name: 创新学分
-      style: basic
-      url: http://jwc.bupt.edu.cn/list/list.php?p=9_39_1
-
-    - name: 课表查询
-      style: basic
-      url: http://jwc.bupt.edu.cn/list/list.php?p=4_34_1
-
-    - name: 考表查询
-      style: basic
-      url: http://jwc.bupt.edu.cn/list/list.php?p=4_35_1
-
-    - name: 出国成绩单办理
-      style: basic
-      url: http://jwc.bupt.edu.cn/content/content.php?p=5_27_65
-
-    - name: 教学事务流程
-      style: basic
-      url: http://jwc.bupt.edu.cn/content/content.php?p=5_68_111
-
-    - name: 创新实践平台
-      style: basic
-      url: http://cslab.bupt.edu.cn/innovation/
-
-    - name: 申请护照通行证
-      style: basic
-      url: http://xsc.bupt.edu.cn/content/content.php?p=27_26_48
-
-    - name: 补办学生证
-      style: basic
-      url: http://xsc.bupt.edu.cn/content/content.php?p=27_26_48
-
-    - name: 校园一卡通
-      style: basic
-      url: http://ecard.bupt.edu.cn/
-
-    - name: 办公电话
-      style: basic
-      url: http://www.bupt.edu.cn/content/content.php?p=6_9_79
-
-    - name: 校历
-      style: basic
-      url: http://www.bupt.edu.cn/content/content.php?p=6_10_80
-
-  - name: 论坛相关
-    links:
-    - name: 北邮人论坛
+    - name: 菓子君Okashi
+      style: olive
+      url: https://space.bilibili.com/932340/video
+    
+    - name: 子言姐姐
       style: teal
-      url: http://bbs.byr.cn/
-
-    - name: 游客版论坛
+      url: https://space.bilibili.com/293917/video
+      
+    - name: 魔法少女
+      style: pink
+      url: https://space.bilibili.com/8162492/video
+      
+    - name: 被窝国际
+      style: blue
+      url: https://space.bilibili.com/8162667/video
+      
+    - name: 下弦月w
+      style: violet
+      url: https://space.bilibili.com/8277689/video
+      
+    - name: 顾跑跑
       style: basic
-      url: http://bbs.cloud.icybee.cn/
-
-    - name: 检索论坛内容
+      url: https://space.bilibili.com/1783244/video
+    
+    - name: 配装计算器
       style: basic
-      url: http://search.icybee.cn/
-
-    # - name: 检索用户发帖
-    #   style: basic
-    #   url: http://search.lovezxp.com/
-
-    - name: 查看论坛数据
+      url: https://gearing.ffsusu.com/
+    
+    - name: 库啵世界
       style: basic
-      url: http://bbs.byr.cn/#!elite/path?v=/bbslists
+      url: https://kupo.world/
 
-    - name: 论坛APP
-      icon: app store
+    - name: 豆芽站-副本文字攻略
+      style: green
+      url: https://ff14.org/duty/
+    
+    - name: CN FFLogs
+      style: basic
+      url: https://cn.fflogs.com/
+
+    - name: 警察网
+      style: basic
+      url: https://xivanalysis.com/
+
+    - name: NGA幻想书库
+      style: wheat
+      url: https://bbs.nga.cn/thread.php?fid=698
+
+- categories: 
+  - name: 成长型武器
+    links:
+    - name: 古武&魂武流程攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=13014248
+
+    - name: ULK史官平台
+      style: basic
+      url: https://eureka.ffxivsc.cn/
+
+    - name: Eureka Tracker
+      style: basic
+      url: https://ffxiv-eureka.com/
+
+    - name: 博兹雅监控板
+      style: basic
+      url: https://bzy.mocca-works.site/#/
+
+    - name: 义军武器攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=21672716
+
+    - name: 扎杜诺尔高原攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=26953760
+
+    - name: 贡希尔德神庙攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=26397957
+
+  - name: 生产采集
+    links:
+    - name: 配方计算器
+      icon: calculator
+      style: basic
+      url: https://5p.nbbjack.com/#/cal
+
+    - name: 赐福计算器
+      icon: calculator
+      style: basic
+      url: https://5p.nbbjack.com/#/blessed
+
+    - name: 工坊计算器
+      icon: calculator
+      style: basic
+      url: https://5p.nbbjack.com/#/workshop
+
+    - name: 生产模拟求解器
+      style: basic
+      url: http://ffxiv.tk/crafter/#/simulator
+
+    - name: 天钢工具攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=21672716
+
+    - name: 潜水艇攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=23490578
+
+    - name: Teamcraft工具箱
+      style: basic
+      url: https://ffxivteamcraft.com/
+
+    - name: Universalis
+      icon: coins
+      style: basic
+      url: https://universalis.app/
+
+    - name: 鱼糕
+      icon: fish
+      style: purple
+      url: https://ricecake.traveleorzea.com/#/
+
+    - name: 饥饿的猫
+      icon: cat
+      style: basic
+      url: https://cn.ff14angler.com/
+
+    - name: susu采集时钟
+      style: basic
+      url: https://caiji.ffxiv.cn/#/
+
+  - name: 金碟游乐场
+    links:
+    - name: 刮刮乐工具
+      style: basic
+      url: http://super-aardvark.github.io/yuryu/
+
+    - name: 时尚品鉴攻略
+      icon: tshirt yellow
+      style: basic
+      url: https://docs.qq.com/sheet/DY2lCeEpwemZESm5q?tab=dewveu
+
+    - name: 九宫幻卡一览
+      style: basic
+      url: https://arrtripletriad.com/cn/huan-ka-yi-lan
+
+    - name: 萌宠之王攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=21729311
+
+    - name: 陆行鸟赛跑攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=9798047
+  
+  - name: 房屋装修
+    links:
+    - name: 艾欧泽亚装修办
+      icon: weibo
+      style: basic 
+      url: https://weibo.com/Eorzkea
+
+    - name: 住宅区数据库
+      icon: home blue
+      style: basic
+      url: https://cn.ff14housing.com/
+
+    - name: 栽培手册
+      style: basic
+      url: https://www.ffxivgardening.com/index.php?lang=zh_CN.UTF-8
+
+    - name: 暖暖房产位置攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=14342924
+
+    - name: Housing Snap
+      style: brown
+      url: https://housingsnap.com/
+
+    - name: I Wana Home
+      style: basic
+      url: https://whw.wds-dsa.com/
+  
+  - name: 摄影幻化
+    links:
+    - name: 光之收藏家
+      icon: dice d6
+      style: blue
+      url: https://www.ffxivsc.cn/
+
+    - name: Eorzea Collection
+      style: red
+      url: https://ffxiv.eorzeacollection.com/
+
+    - name: mirapi snap
+      style: basic
+      url: https://mirapri.com/
+
+    - name: Gshade
+      icon: google red
+      style: basic
+      url: https://gposers.com/gshade/
+
+    - name: 艾欧泽亚地理频道
+      icon: mountain
+      style: basic
+      url: https://weibo.com/ffxivnge
+
+    - name: 外观装备检索 FFXIV Collection
+      style: basic
+      url: https://www.ffxivcollection.com/
+
+    - name: Web Model Viewer
+      style: basic
+      url: https://ffxiv.dlunch.net/model
+
+    - name: 兵装图鉴
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=20459393
+
+    - name: TexTools
+      style: basic
+      url: https://www.ffxiv-textools.net/
+
+    - name: 摄影工具 Anamnesis
+      style: blue
+      url: https://bbs.tggfl.com/topic/130/%E6%90%AC%E8%BF%90-%E6%91%84%E5%BD%B1%E5%B7%A5%E5%85%B7-anamnesis-%E6%94%AF%E6%8C%81%E5%9B%BD%E6%9C%8D6-0
+
+    - name: XIV Mod Archive
+      icon: modx
+      style: basic
+      url: https://www.xivmodarchive.com/
+
+- categories: 
+  - name: 战斗综合
+    links:
+    - name: 国服狩猎车
+      style: basic
+      url: https://tools.dsrkafuu.net/ffxiv
+    
+    - name: 国服狩猎车
+      style: basic
+      url: https://ffxivhuntcn.com/#/
+    
+    - name: Faloop!国际服狩猎工具
+      style: basic
+      url: https://faloop.app/
+
+    - name: OtterBot狩猎时钟
+      icon: clock
+      style: green
+      url: https://xn--v9x.net/hunt/sonar/
+      
+    - name: BearTracker狩猎CD平台
+      icon: paw
+      style: blue
+      url: https://tracker.ff14hunttool.com/timer
+    
+    - name: 常见野外大型怪物&Fate解明
+      style: blue
+      url: https://ffxiv.annangela.cn/introduction.html
+    
+    - name: Sonar狩猎中继
+      style: pink
+      url: https://blog.zhuizi.me/index.php/archives/10/
+      
+    - name: ACT狩猎平台银山雀儿
+      icon: earlybirds
+      style: teal
+      url: https://bbs.nga.cn/read.php?tid=31936161
+    
+    - name: PVP入门指南
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=15134226
+
+    - name: 青魔法师技能学习攻略
+      style: basic
+      url: https://thewakingsands.github.io/blue-mage/
+
+    - name: 死灵术士心得攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=22630278
+
+    - name: 赤魔单刷死宫攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=20163536
+
+    - name: 绝枪单刷天宫攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=20876403
+
+    - name: 绝枪&DK单刷天宫攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=21431324
+
+  - name: 科技工具
+    links:
+    - name: 萨雷安の迦巴勒幻想大图书馆
+      icon: book open
+      style: blue
+      url: https://bbs.tggfl.com/
+
+    - name: NGA幻想科技
+      icon: accessible
+      style: basic
+      url: https://bbs.nga.cn/thread.php?stid=20425950
+
+    - name: 獭窝
+      icon: otter
+      style: brown
+      url: http://xn--v9x.net/
+    
+    - name: 咖啡ACT
+      icon: tools
+      style: orange
+      url: https://ffcafe.org/act/
+      
+    - name: 呆萌ACT
+      icon: tools
+      style: green
+      url: https://bbs.nga.cn/read.php?tid=19019884
+
+    - name: 素素辣鸡排
+      style: red
+      url: https://tools.ffxiv.cn/lajipai/index.html
+
+    - name: Dalamud卫月
+      icon: atlas
+      style: red
+      url: https://bbs.tggfl.com/topic/32/dalamud-%E5%8D%AB%E6%9C%88%E6%A1%86%E6%9E%B6/
+    
+    - name: むーむーのネタ帳
+      style: basic
+      url: https://ff14moomoo.com/
+
+    - name: 陆行鸟染色
+      style: basic
+      url: https://mo_n.gitee.io/ffxivchocobo/#/
+
+    - name: 冒险者小队计算器
+      style: basic
+      url: http://ffxivsquadron.com/
+
+    - name: 探索笔记时钟
+      style: basic
+      url: https://annangela.github.io/FFXIVSightseeingGuide/#/
+
+    - name: 幻巧拼图计算器
+      style: basic
+      url: https://nephren_ruq.gitee.io/fauxhollowsprobabilisticsolver/
+    
+    - name: 天书计算器
+      style: basic
+      url: http://ashtender.com/ffxiv/tails
+
+    - name: PostNamazu
+      style: basic
+      url: https://github.com/Natsukage/PostNamazu
+
+    - name: 国际服服务器实时状况
+      style: basic
+      url: https://arrstatus.com/
+
+    - name: 天气查询
+      icon: sun
+      style: basic
+      url: https://asvel.github.io/ffxiv-weather/
+
+    - name: 獭爹の工具箱
+      icon: otter brown
+      style: basic
+      url: https://file.bluefissure.com/FFXIV/
+
+    - name: 封号查询
+      icon: user slash
       style: black
-      url: https://apps.apple.com/cn/app/id1115232927
+      url: https://www.innocence-vauthry.xyz/
 
-    - name: 论坛APP
-      icon: google play
-      style: black
-      url: https://github.com/BYR-App-Dev/BYR_App_Android_Release/releases/latest
-
-    - name: 论坛官方微博
+    - name: 文本检索
+      icon: search
       style: basic
-      url: http://weibo.com/byrbbs
+      url: https://strings.wakingsands.com/
 
-    - name: 论坛投票区
+    - name: FFXIV 官方/第三方服务监控
       style: basic
-      url: http://bbs.byr.cn/#!vote
+      url: https://mystatus.bingyin.org/status/ffxivcn
 
-    # - name: 玩转论坛指南
-    #   style: basic
-    #   url: http://bbs.byr.cn/#!article/Talking/5852307
+    - name: 塔塔露国际服翻译插件
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=30399830&rand=953
