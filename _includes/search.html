@@ -15,51 +15,7 @@
         <div id="search-button" class="ui black icon button"><i class="search icon"></i></div>
     </div>
 
-<p align="center">国服新闻</p>
-<div class="d" style="width:90%" align="center">
-                  
-<?php
-$rss_news = array("http://rss.shab.fun/ff14/ff14_zh/all");
-header('Content-Type:text/html;charset= UTF-8');
-for($i=0;$i<sizeof($rss_news);$i++){
-    $buff = "";
-    $rss_news_str="";
-    $fp = fopen($rss_news[$i],"r") or die("operation dies");
-    while ( !feof($fp) ) {
-        $buff .= fgets($fp,4096);
-    }
-    fclose($fp);
-      
-    $parser = xml_parser_create();
-    //xml_parser_set_option
-    xml_parser_set_option($parser,XML_OPTION_SKIP_WHITE,1);
-    //xml_parse_into_struct
-    xml_parse_into_struct($parser,$buff,$values,$idx);
-    //xml_parser_free
-    xml_parser_free($parser);
-   
-    foreach ($values as $val) {
-        $tag = $val["tag"];
-        $type = $val["type"];
-        $value = $val["value"];
-        $tag = strtolower($tag);
-      
-        if ($tag == "item" && $type == "open"){
-            $is_item = 1;
-        }else if ($tag == "item" && $type == "close") {
-            $rss_news_str[] = "<a href='".$link."' target=_blank>".$title."</a>";
-            $is_item = 0;
-        }
-        if($is_item==1){
-            if ($tag == "title") {$title = $value;}
-            if ($tag == "link") {$link = $value;}
-        }
-    }
-    echo $rss_news_str[0]."<br />";
-    echo $rss_news_str[1]."<br />";
-}
-?>
-</div>
+
 <div class="feed">
 <br>
 <script src="//rss.bloople.net/?url=https%3A%2F%2Frss.shab.fun%2Fff14%2Fff14_zh%2Fall&detail=-1&limit=2&showtitle=false&type=js"></script>
