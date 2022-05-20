@@ -39,6 +39,10 @@
     margin-top: 0em;
 }
 
+.ui.masthead .rss-box {
+    margin-top: 0em;
+}
+
 .ui.labels .ui.label {
     margin-left: 0.25em;
     margin-right: 0.25em;
