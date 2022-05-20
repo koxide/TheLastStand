@@ -2,8 +2,8 @@
 (function() {
 
   // 設定Rss和數量
-  var rssUrl = 'http://feeds.feedburner.com/otoitsuki',
-    rssNum = 5,
+  var rssUrl = 'https://rss.shab.fun/ff14/ff14_zh/all',
+    rssNum = 2,
     rssJson = '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=' + rssNum + '&q=' + rssUrl;
 
   $.ajax({
@@ -47,7 +47,7 @@
           '</div>' +
           '<div class="article-info">' +
           '<h3 class="title"><a href="' + link + '">' + title + '</a></h3>' +
-          '<p class="content">' + content + '</p>' +
+          // '<p class="content">' + content + '</p>' +
           '</div>' +
           '</div>';
         // * append entire entry in container
