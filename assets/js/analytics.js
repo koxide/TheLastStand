@@ -345,13 +345,13 @@ visitHourlyChart.setOption({
                     type: 'dashed'
                 }
             },
-            axisLine: {
-                show: false
-            }
         },
         yAxis: {
             type: 'category',
             data: [],
+            splitLine: {
+                show: true
+            },
             axisLine: {
                 show: false
             }
