@@ -1,5 +1,8 @@
+<!--<div id="banner-advertisement">
+        <a class="ui mini olive label" href="https://actff1.web.sdo.com/project/20220606ffmogu/index.html" target="_blank"><i class="globe icon"></i><span class="ui grey text"></span>&nbsp;莫古莫古★大收集 ~圣典的继承者~ <div class="detail">(6月21日14:00~6.1版本更新前)</div></a>
+    </div>-->
 {% if site.data.banner.advertisement.show %}<div id="banner-advertisement">
-        <a class="ui mini {{ site.data.banner.advertisement.color }} label" href="{{ site.data.banner.advertisement.link }}" target="_blank"><i class="{{ site.data.banner.advertisement.icon }} icon"></i><span class="ui grey text">&lt;广告&gt;</span>&nbsp;{{ site.data.banner.advertisement.content }}<div class="detail">{{ site.data.banner.advertisement.detail }}</div></a>
+        <a class="ui mini {{ site.data.banner.advertisement.color }} label" href="{{ site.data.banner.advertisement.link }}" target="_blank"><i class="{{ site.data.banner.advertisement.icon }} icon"></i><span class="ui grey text"><!--&lt;&gt;--></span>&nbsp;{{ site.data.banner.advertisement.content }}<div class="detail">{{ site.data.banner.advertisement.detail }}</div></a>
     </div>{% endif %}
 {%- if site.data.banner.message.show -%}
     {%- if site.data.banner.message.hitokoto -%}

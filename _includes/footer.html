@@ -1,7 +1,7 @@
 <div class="ui inverted vertical footer segment">
     <div class="ui container">
         <div class="ui stackable inverted divided equal height stackable grid">
-            <div class="three wide column">
+            <!--<div class="three wide column">
                 <h4 class="ui inverted header">Built with</h4>
                 <div class="ui inverted link list">
                     {% for item in site.data.built_with %}<a class="item" href="{{ item.url }}" target="_blank">{{ item.name }}</a>{% endfor %}
@@ -20,20 +20,60 @@
                     <a class="item" href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a>
                     <a class="item" href="{{ '/donate/' | relative_url }}">Donate</a>
                 </div>
-            </div>
-            <div class="seven wide column">
+            </div>-->
+            <!--<div class="three wide column">-->
                 <h4 class="ui inverted header">{{ site.title }}</h4>
+                <div class="item">FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.<br>
+                All FINAL FANTASY XIV contents and materials are copyrights of SQUARE ENIX, FINAL FANTASY XIV<br>
+                &copy; {{ site.time | date: "%Y" }} SQUARE ENIX CO., LTD. All Rights Reserved. <br></div>
                 <div class="ui inverted link list">
-                    <div class="item">&copy; {{ site.time | date: "%Y" }} {{ site.organization }}</div>
-                    <div class="item">Designed and built with all the love and passion in the world by {{ site.author }}.</div>
-                    <a class="item" href="{{ '/analytics/' | relative_url }}">
+                    <!--<div class="item">&copy; {{ site.time | date: "%Y" }} {{ site.organization }}</div>-->
+                    <div class="item">Designed and built with all the love and passion in the world by <a class="item" href="{{ site.author_url }}" target="_blank">{{ site.author }}</a>.</div>
+                    <div class="item">本网站仅做收录与指引功能，因使用外部程序导致违反相关游戏规定而可能产生的风险，由使用者自负，本网站及运营人员对此概不负责。</div>
+                    <div class="item">Thanks to open source projects: <a class="item" href="https://github.com/BYR-Navi/BYR-Navi" target="_blank"><i class="github icon"></i>BYR-Navi</a>.</div>
+                    <div class="footer_mar">
+					<script>
+					(function(){
+					    var bp = document.createElement('script');
+					    var curProtocol = window.location.protocol.split(':')[0];
+					    if (curProtocol === 'https') {
+					        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+					    }
+					    else {
+					        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+					    }
+					    var s = document.getElementsByTagName("script")[0];
+					    s.parentNode.insertBefore(bp, s);
+					})();
+					  
+						</script>				 
+					                  站点已磕磕绊绊运行：<SPAN id=span_dt_dt ></SPAN> 
+					                  <script language=javascript>function show_date_time(){
+					                    window.setTimeout("show_date_time()", 1000);
+					                    BirthDay=new Date("1/1/2022 00:00:00 ");
+					                    today=new Date();
+					                    timeold=(today.getTime()-BirthDay.getTime());
+					                    sectimeold=timeold/1000
+					                    secondsold=Math.floor(sectimeold);
+					                    msPerDay=24*60*60*1000
+					                    e_daysold=timeold/msPerDay
+					                    daysold=Math.floor(e_daysold);
+					                    e_hrsold=(e_daysold-daysold)*24;
+					                    hrsold=Math.floor(e_hrsold);
+					                    e_minsold=(e_hrsold-hrsold)*60;
+					                    minsold=Math.floor((e_hrsold-hrsold)*60);
+					                    seconds=Math.floor((e_minsold-minsold)*60);
+					                    span_dt_dt.innerHTML=''+daysold+' 天 '+hrsold+' 时 '+minsold+' 分 '+seconds+' 秒';
+					                    }show_date_time();</script> 
+                    </div>
+                    <!--<a class="item" href="{{ '/analytics/' | relative_url }}">
                         Visits / Page Views:
                         <span id="today-visits">0</span> / <span id="today-actions">0</span> (Today)
                         &middot;
                         <span id="yesterday-visits">0</span> / <span id="yesterday-actions">0</span> (Yesterday)
-                    </a>
-                </div>
-            </div>
+                    </a>-->
+                <!--</div>
+            </div>-->
         </div>
     </div>
 </div>
