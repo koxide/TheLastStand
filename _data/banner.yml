@@ -1,12 +1,12 @@
 message:
-  show: false
+  show: true
   hitokoto: false
   content:  【季节活动】
-  detail:  新生庆典——无尽的旅途，祈求平安 （8月17日14:00～8月31日14:00）
-  color: red
+  detail:  守护天节与可疑的滑稽艺人 （2022年10月20日14:00 ～ 2022年11月3日14:00）
+  color: orange
   icon: heart
   image: false
-  link: https://actff1.web.sdo.com/project/20220803MoonfireFaire/
+  link: https://actff1.web.sdo.com/project/20221020AllSaintsWake/
 
 advertisement:
   show: false
