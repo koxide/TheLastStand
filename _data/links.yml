@@ -356,6 +356,9 @@
       style: green
       icon: house
       url: https://wanahome.ffxiv.bingyin.org/
+      
+    - name: 艾欧泽亚售楼中心
+      url: https://house.ffxiv.cyou/#/
   
   - name: 摄影幻化
     links:
