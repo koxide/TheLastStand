@@ -494,11 +494,6 @@
       icon: tools
       style: orange
       url: https://ffcafe.org/act/
-      
-    - name: 呆萌ACT
-      icon: tools
-      style: green
-      url: https://bbs.nga.cn/read.php?tid=19019884
 
     - name: 素素辣鸡排
       style: red
