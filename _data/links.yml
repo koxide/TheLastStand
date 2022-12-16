@@ -304,6 +304,10 @@
     - name: susu采集时钟
       style: basic
       url: https://caiji.ffxiv.cn/#/
+      
+    - name: 无人岛攻略
+      style: basic
+      url: https://ngabbs.com/read.php?tid=33192114
 
   - name: 金碟游乐场
     links:
