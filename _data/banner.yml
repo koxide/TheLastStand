@@ -9,9 +9,9 @@ message:
   link: https://actff1.web.sdo.com/project/20221107ffmogu/index.html
 
 advertisement:
-  show: false
-  content: 【季节活动】
-  detail: 红莲节——常夏的冰果与大冰兽 （8月3日14:00～8月17日14:00）
+  show: true
+  content: 【2022星芒节】
+  detail: 小小的从者 大大的勇气 （2022年12月22日14:00-2023年1月5日14:00）
   color: red
   icon: lemon
-  link: https://actff1.web.sdo.com/project/20220803MoonfireFaire/
+  link: https://actff1.web.sdo.com/project/20221222Starlight/
