@@ -221,6 +221,10 @@
     - name: NGA幻想书库
       style: wheat
       url: https://bbs.nga.cn/thread.php?fid=698
+      
+    - name: Raid高难攻略整合
+      style: basic
+      url: https://ff14.link/
 
 - categories: 
   - name: 成长型武器
@@ -290,6 +294,10 @@
       icon: coins
       style: basic
       url: https://universalis.app/
+      
+    - name: 晓月之捕鱼人攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=31057563
 
     - name: 鱼糕
       icon: fish
@@ -300,6 +308,10 @@
       icon: cat
       style: basic
       url: https://cn.ff14angler.com/
+      
+    - name: 6.0海钓冲分攻略
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=32005314
 
     - name: susu采集时钟
       style: basic
@@ -476,6 +488,10 @@
     - name: 绝枪&DK单刷天宫攻略
       style: basic
       url: https://bbs.nga.cn/read.php?tid=21431324
+      
+    - name: 5v5水晶冲突PVP指北
+      style: basic
+      url: https://bbs.nga.cn/read.php?tid=32454519
 
   - name: 科技工具
     links:
