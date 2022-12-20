@@ -320,6 +320,10 @@
     - name: 无人岛攻略
       style: green
       url: https://ngabbs.com/read.php?tid=33192114
+      
+    - name: 无人岛小动物捕捉时钟
+      style: basic
+      url: https://next.ffmomola.com/
 
   - name: 金碟游乐场
     links:
