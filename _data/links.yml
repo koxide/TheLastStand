@@ -324,6 +324,10 @@
     - name: 无人岛小动物捕捉时钟
       style: basic
       url: https://next.ffmomola.com/
+      
+    - name: 无人岛每周作业
+      style: basic
+      url: https://blog.b07.net/archives/18/
 
   - name: 金碟游乐场
     links:
