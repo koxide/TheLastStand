@@ -328,6 +328,10 @@
     - name: 无人岛每周作业
       style: basic
       url: https://blog.b07.net/archives/18/
+      
+    - name: 素素无人岛
+      style: blue
+      url: https://wrd.ffxiv.cn/
 
   - name: 金碟游乐场
     links:
